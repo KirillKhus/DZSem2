@@ -122,7 +122,7 @@ student_t* add_student(student_t* students, int* n) {
         return students;
     }
     students = (student_t*)realloc(students, (*n + 1) * sizeof(student_t)); 
-    printf("Enter information about new student\n");
+    printf("Success\n");
     students[(*n)++] = student;
     return students;
 }
